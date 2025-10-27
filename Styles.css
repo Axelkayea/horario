@@ -1,0 +1,172 @@
+/* Estilos generales del cuerpo del documento */
+body{
+    /* Configuración del tamaño y disposición */
+    width: 100%;
+    min-height: 100vh;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    /* Configuración de la fuente y márgenes */
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    
+    /* Configuración del fondo */
+    background: url(OIP.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: auto;
+}
+/* Estilos para la sección principal */
+main{
+    display: flex;       
+    justify-content: center;
+}
+
+/* Estilos para el encabezado */
+header{
+    padding: 0;
+    color: rgb(60, 60, 158);
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+/* Estilo para el título con efecto de transición */
+.te{
+    transition: 0.5s ease;
+}
+
+/* Efecto hover para el título */
+.te:hover{
+    transform: translateY(-4px) translateX(-4px);
+    text-shadow: 0 0 1px rgb(89, 89, 129), 0 0 16px rgba(102, 102, 197, 0.321);
+}
+/* Estilos para la tabla del horario */
+.tabla{
+    /* Configuración de márgenes y bordes */
+    margin: 0px;
+    margin-bottom: 50px;  
+    width: 600px;
+    border-radius: 12px;
+    border: 0px;
+    
+    /* Configuración visual */
+    color: rgb(65, 44, 104);
+    background: linear-gradient(to left, rgba(98, 148, 175, 0.354),rgba(96, 96, 222, 0.393),rgba(51, 51, 180, 0.502));
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px); /* Soporte para Safari */
+    
+    /* Alineación y espaciado */
+    text-align: center;
+    padding: 2px;
+} 
+
+/* Estilos para los encabezados de la tabla */
+th{
+    /* Configuración del espaciado */
+    padding: 0px;
+    padding-left: 4px;    
+    padding-bottom: 4px;
+    
+    /* Estilo visual */
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(59, 210, 59), rgb(84, 174, 84));
+}
+
+/* Estilos para las celdas de la tabla */
+td{ 
+    /* Configuración de bordes y espaciado */
+    margin: 0px;
+    padding: 6px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    border: 0px;
+    
+    /* Efecto de transición */
+    transition: 0.5s ease;
+}
+
+/* Efecto hover para las celdas */
+td:hover{
+    transform: translateY(-4px) translateX(-4px);
+    box-shadow: 3px 3px 0 0 rgb(192, 185, 185);
+    color: white;
+    cursor: grabbing;
+}
+/* Estilos para la columna de horas */
+.hor{
+    padding: 8px;
+}
+.hor:hover{
+    color: black;
+}
+
+/* Colores para las diferentes materias */
+.mat{
+    background-color: rgb(197, 43, 43); /* Temas selectos de matemáticas II */
+}
+.mat2{
+    background-color: orange; /* Aplicación del pensamiento matemático */
+}
+.const{
+    background-color:  #a0d744; /* Construye Aplicaciones Web */
+}
+.imp{
+    background-color: aquamarine; /* Implementa Aplicaciones Web */
+}
+.ing{
+    background-color: rgb(154, 42, 154); /* Inglés V */
+}
+.engr{
+    background-color: #05ef70;
+}
+.soc {
+    background-color: rgb(168, 233, 78);
+}
+.conc{
+    background-color: #445677;
+}
+
+.tut{
+    background-color: cadetblue;
+}
+
+.receso{
+    background-color: #0044f7;
+}
+
+.mae{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: #2157bc77;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.lol{
+    list-style: none;
+    margin-left: -40px;
+}
+.prf{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 18px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+.prf:hover{
+    background-color: white;
+    transform: translateX(-3px) translateY(-3px) ;
+    cursor: pointer;
+}
+

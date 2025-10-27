@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- 
+    Documento HTML que muestra el horario escolar del grupo 5ºG del CBTis 194
+    Este documento contiene la estructura del horario semanal de clases
+    Incluye materias, horarios y lista de profesores
+-->
+<html lang="es-MX">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset='utf-8'> <!-- Codificación de caracteres UTF-8 -->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!-- Compatibilidad con IE -->
+    <title>Horario</title>
+    
+    <!-- Configuración de la vista responsive -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Ajuste para dispositivos móviles -->
+    
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles.css'>
+    
+    <!-- Importación de la fuente Montserrat desde Google Fonts para toda la página -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+    </style>
+    
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <!-- Título principal con efecto de hover (clase 'te') -->
+        <h1 class="te">Centro de bachillerato Tenologico Industrial y de Servicios Nº194</h1>
+
+        <!-- Subtítulo que indica el grupo -->
+        <h2 class="hora">Horario 5ºG</h2>
+    </header>
+    <!-- Contenido principal - Tabla del horario -->
+    <main>
+        <!-- Tabla con diseño personalizado (clase 'tabla') -->
+        <table class="tabla">
+            <!-- Encabezados de la tabla: días de la semana y columna de horas -->
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Horas</th>
+            </tr>
+            <!-- Primera hora de clase -->
+            <tr>
+                <td class="mat">Temas selectos de matematicas II</td>
+                <td class="mat2">Aplicacion del pensamiento matematico</td>
+                <td class="ing">Ingles V</td>
+                <td class="soc ">Socioemocional</td>
+                <td class="conc">Conciencia Historica</td>
+                <td class="hor">7:00 - 7:50</td>
+            </tr>
+            <!-- Segunda hora de clase -->
+            <tr>
+                <td class="mat">Temas selectos de matematicas II</td>
+                <td class="mat2">Aplicacion del pensamiento matematico</td>
+                <td class="ing">Ingles V</td>
+                <td class="tut">Tutoria</td>
+                <td class="mat2">Aplicacion del pensamiento matematico</td>
+                <td class="hor">7:50 - 8:40</td>
+            </tr>
+            <!-- Tercera hora de clase -->
+            <tr>
+                <td class="ing">Ingles V</td>
+                <td class="const">Construye Aplicaciones Web</td>
+                <td class="mat">Temas selectos de matematicas II</td>
+                <td class="conc">Conciencia Historica</td>
+                <td class="imp">Implementa Aplicaciones Web</td>
+                <td class="hor">8:40 - 9:30</td>
+            </tr>
+            <!-- Cuarta hora de clase -->
+            <tr>
+                <td class="const">Construye Aplicaciones web</td>
+                <td class="const">Construye Aplicaciones Web</td>
+                <td class="mat">Temas selectos de matematicas II</td>
+                <td class="conc">Conciencia Historica</td>
+                <td class="imp">Implementa Aplicaciones Web</td>
+                <td class="hor">9:30 - 10:20</td>
+            </tr>
+            <!-- Periodo de receso - ocupa 5 columnas -->
+            <tr>
+                <td class="receso" colspan="5">Receso</td>
+                <td class="hor">10:20 - 10:50</td>
+            </tr>
+            <!-- Quinta hora de clase (después del receso) -->
+            <tr>
+                <td class="const">Construye Aplicaciones web</td>
+                <td class="const">Construye Aplicaciones Web</td>
+                <td class="engr">La ENG en los PROC de la vide diaria</td>
+                <td class="ing">Ingles V</td>
+                <td class="imp">Implementa Aplicaciones Web</td>
+                <td class="hor">10:50 - 11:40</td>
+            </tr>
+            <!-- Sexta hora de clase -->
+            <tr>
+                <td class="const">Construye Aplicaciones web</td>
+                <td class="const">Construye Aplicaciones Web</td>
+                <td class="engr">La ENG en los PROC de la vide diaria</td>
+                <td class="ing">Ingles V</td>
+                <td class="mat">Temas selectos de matematicas II</td>
+                <td class="hor">11:40 - 12:30</td>
+            </tr>
+            <!-- Séptima hora de clase - Algunas clases solamente -->
+            <tr>
+                <td class="imp">Implementa Aplicaciones Web</td>
+                <td></td>
+                <td></td>
+                <td class="engr">La ENG en los PROC de la vide diaria</td>
+                <td></td>
+                <td class="hor">12:30 - 1:20</td>
+            </tr>
+            <!-- Octava hora de clase - Última hora del día -->
+            <tr>
+                <td class="imp">Implementa Aplicaciones Web</td>
+                <td></td>
+                <td></td>
+                <td class="engr">La ENG en los PROC de la vide diaria</td>
+                <td></td>
+                <td class="hor">1:20 - 2:10</td>
+            </tr>
+        </table>
+    </main>
+   <!-- Pie de página - Lista de profesores -->
+   <footer class="mae">
+    <!-- Lista de profesores con estilo personalizado (clase 'lol') -->
+    <ul class="lol">
+        <!-- Cada profesor tiene la clase 'prf' para estilos específicos -->
+        <li class="prf">Miriam Centeno Torres</li>
+        <li class="prf">Liliana Figueroa Delgado </li>
+        <li class="prf">Maria Dolores Rendon Cobian</li>
+        <li class="prf">Ivan Eliezer Romero Ramirez</li>
+        <li class="prf">Aribed</li>
+        <li class="prf">Jorge Gamaliel Torres Fernandez</li>
+        <li class="prf">Jazmin Torres Turijan</li>
+        <li class="prf">Diana Villa Noriega</li>
+        <li class="prf">Moises Rendon Gomez</li>
+    </ul>
+   </footer>
+</body>
+</html>
